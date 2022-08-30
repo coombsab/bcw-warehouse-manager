@@ -1,0 +1,103 @@
+:root {
+  --theme-primary: #131212;
+  --theme-secondary: #a99fe0;
+  --theme-accent: #2f2e41;
+  --transparent-theme-accent: rgba(47, 46, 65, 0.75);
+  --transparent-theme-secondary: rgba(169, 159, 224, 0.25);
+  --transparent-theme-primary: rgba(19, 18, 18, 0.75);
+  --white: #eeeaea;
+  --white-more-btn: #dee2e5;
+  --font-size: 16px;
+  --boldness: 700;
+  --section-padding: 3rem;
+  --navbar-padding: 1rem;
+  --button-padding: 0.25rem 0.75rem;
+  --card-rounded-corners: 0.5rem;
+}
+
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1597437176788-c8fdb5bc1643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-position: center;
+  background-size: cover;
+  font-size: 14px;
+}
+
+.card {
+  background-color: var(--transparent-theme-accent);
+  color: var(--theme-secondary);
+  height: 90%;
+  width: 90%;
+  border-radius: var(--card-rounded-corners);
+}
+
+.card-package {
+  background-image: url("https://images.unsplash.com/photo-1615678857339-4e7e51ce22db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 20vh;
+  width: 20vh;
+  min-height: 20vh;
+  min-width: 20vh;
+  border-radius: var(--card-rounded-corners);
+  border: 0.3rem solid var(--theme-primary);
+}
+
+.card-2 {
+  background-color: var(--transparent-theme-primary);
+  color: var(--theme-secondary);
+  border-radius: var(--card-rounded-corners);
+  padding: var(--button-padding)
+}
+
+.img-package {
+  height: 10vh;
+}
+
+.text-theme-primary {
+  color: var(--theme-primary);
+}
+
+.text-theme-secondary {
+  color: var(--theme-secondary);
+}
+
+.text-theme-accent {
+  color: var(--theme-accent);
+}
+
+.fw-bold {
+  font-weight: var(--boldness);
+}
+
+.bg-theme-primary {
+  background-color: var(--theme-primary);
+}
+
+.bg-theme-secondary {
+  background-color: var(--theme-secondary);
+}
+
+.bg-theme-accent {
+  background-color: var(--theme-accent);
+}
+
+.bg-transparent-theme-secondary {
+  background-color: var(--transparent-theme-secondary);
+}
+
+.bg-transparent-theme-accent {
+  background-color: var(--transparent-theme-accent);
+}
+
+button {
+  border-radius: var(--card-rounded-corners);
+  background-color: var(--transparent-theme-accent);
+  color: var(--theme-secondary);
+  padding: var(--button-padding);
+}
+
+button:hover {
+  background-color: var(--theme-secondary);
+  color: var(--theme-accent);  
+}
