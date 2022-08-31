@@ -48,7 +48,7 @@ const packages = [{
   trackingNumber: 'suz2367'
 }]
 
-let filterOptions = ["PL: free", "PL: standard", "PL: express", "Fragile", "Not Fragile"]
+let filterOptions = ["PL: free", "PL: standard", "PL: express", "Fragile", "Not Fragile", "Clear Filter"]
 let sortOptions = ["Weight", "Recipient", "Tracking Number"]
 let findOptions = ["recipient", "trackingNumber"]
 
@@ -77,6 +77,8 @@ function filterBy (filter) {
     case "Not Fragile":
       filteredArray = packages.filter(package => !package.isFragile)
       break
+    case "Clear Filter":
+      filteredArray = packages
   }
   
   drawPackages(filteredArray)

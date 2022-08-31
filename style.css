@@ -90,6 +90,10 @@ body {
   background-color: var(--transparent-theme-accent);
 }
 
+.bg-transparent-theme-primary {
+  background-color: var(--transparent-theme-primary);
+}
+
 button {
   border-radius: var(--card-rounded-corners);
   background-color: var(--transparent-theme-accent);
